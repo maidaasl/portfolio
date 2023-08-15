@@ -1,19 +1,13 @@
 import './App.css';
-import NavBar from './components/NavBar';
-import {
-Card,
-} from "@material-tailwind/react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Home from './components/home/Home';
+import About from './components/about/About';
 
 function App() {
   return (
     <>
-    <NavBar/>
-    <div className="mx-auto max-w-screen-md py-12">
-        <Card className="mb-12 overflow-hidden">
-
-        </Card>
-
-      </div>
+    <Home/>
+    <About/>
     </>
   );
 }
