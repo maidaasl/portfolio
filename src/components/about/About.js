@@ -4,7 +4,7 @@ import './About.css';
 
 function About() {
   return (
-    <>
+    <div className="cont">
     <Container className="about-section">
        <h1>About Me</h1>
        <p>
@@ -15,7 +15,7 @@ function About() {
        Check out my portfolio to see some of my projects!
        </p>
     </Container>
-    </>
+    </div>
   );
 }
 
